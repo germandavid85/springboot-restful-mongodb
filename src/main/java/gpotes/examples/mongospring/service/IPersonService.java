@@ -12,5 +12,7 @@ public interface IPersonService
 {
     List<Person> findAll();
     
+    Person findById(String id);
+    
     Person save(Person person);
 }

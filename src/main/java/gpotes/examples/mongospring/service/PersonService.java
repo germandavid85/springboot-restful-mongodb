@@ -38,4 +38,10 @@ public class PersonService implements IPersonService
         return personRepository.save(person);
     }
 
+
+    @Override
+    public Person findById(final String id) {
+        return personRepository.findById(id);
+    }
+
 }
