@@ -26,17 +26,21 @@ example: use curl o postman (chrome extension) to test the rest service with a j
 
 ```json
 {
-    "firstName": "melissa",
-    "lastName": "calero",
-    "profession": "enginner",
+    "firstName": "dave",
+    "lastName": "mustain",
+    "profession": "musician",
     "location": [
         125,
-        85
+        -85
     ],
     "companies": [
         {
-            "orgName": "finesa",
-            "headquarter": "clo"
+            "orgName": "megadeth",
+            "headquarter": "la"
+        },
+        {
+            "orgName": "metallica",
+            "headquarter": "la"
         }
     ]
 }
