@@ -41,7 +41,6 @@ example: use curl o postman (chrome extension) to test the rest service with a j
     ]
 }
 ```
-/saveperson?firstname=dave&lastname=mustain&profession=musician&latitude=125&longitude=-85&orgname=megadeth&headquarter=la&orgname=metallica&headquarter=ny
 
 # Run web app
 under the webapp dir execute
