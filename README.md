@@ -22,7 +22,25 @@ to save a new person the route is "/saveperson" and the parameters are:
 * orgname - repeated for multiple
 * headquarter - repeated for multiple
 
-example:
+example: use curl o postman (chrome extension) to test the rest service with a json document like this:
+
+```json
+{
+    "firstName": "melissa",
+    "lastName": "calero",
+    "profession": "enginner",
+    "location": [
+        125,
+        85
+    ],
+    "companies": [
+        {
+            "orgName": "finesa",
+            "headquarter": "clo"
+        }
+    ]
+}
+```
 /saveperson?firstname=dave&lastname=mustain&profession=musician&latitude=125&longitude=-85&orgname=megadeth&headquarter=la&orgname=metallica&headquarter=ny
 
 # Run web app
