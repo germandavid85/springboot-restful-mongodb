@@ -1,14 +1,16 @@
 package gpotes.examples.mongospring.domain;
 
+import org.springframework.data.mongodb.core.index.Indexed;
+
 public class Company
 {
+    @Indexed (unique = true)
     private String orgName;
     private String headquarter;
 
     public Company() {}
 
-    public Company(String orgName, String headquarter)
-    {
+    public Company(String orgName, String headquarter) {
         this.orgName = orgName;
         this.headquarter = headquarter;
     }
@@ -16,32 +18,30 @@ public class Company
     /**
      * @return Returns the orgName.
      */
-    public String getOrgName()
-    {
+    public String getOrgName() {
         return orgName;
     }
 
     /**
-     * @param orgName The orgName to set.
+     * @param orgName
+     *            The orgName to set.
      */
-    public void setOrgName(String orgName)
-    {
+    public void setOrgName(String orgName) {
         this.orgName = orgName;
     }
 
     /**
      * @return Returns the headquarter.
      */
-    public String getHeadquarter()
-    {
+    public String getHeadquarter() {
         return headquarter;
     }
 
     /**
-     * @param headquarter The headquarter to set.
+     * @param headquarter
+     *            The headquarter to set.
      */
-    public void setHeadquarter(String headquarter)
-    {
+    public void setHeadquarter(String headquarter) {
         this.headquarter = headquarter;
     }
 }

@@ -1,0 +1,2 @@
+# org unique index
+db.person.ensureIndex({"companies.orgName": 1}, {unique: 1});
