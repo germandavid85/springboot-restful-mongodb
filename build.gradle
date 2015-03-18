@@ -15,7 +15,7 @@ apply plugin: 'idea'
 apply plugin: 'spring-boot'
 
 jar {
-    baseName = 'gs-accessing-data-mongodb'
+    baseName = 'springboot-restful-mongodb'
     version =  '0.1.0'
 }
 
