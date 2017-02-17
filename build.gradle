@@ -29,7 +29,8 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-data-mongodb")
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.hateoas:spring-hateoas")
-    testCompile("junit:junit")
+    testCompile("junit:junit:4.12")
+    testCompile("org.mockito:mockito-all:1.9.5")
 }
 
 task wrapper(type: Wrapper) {

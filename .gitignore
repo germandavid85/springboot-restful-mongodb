@@ -4,3 +4,7 @@
 .project/
 .settings/
 build/
+out/
+*.iml
+*.ipr
+*.iws
