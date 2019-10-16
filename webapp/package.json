@@ -24,7 +24,7 @@
     "grunt-rev": "0.1.0",
     "grunt-svgmin": "6.0.0",
     "grunt-usemin": "2.0.2",
-    "jshint-stylish": "0.1.5",
+    "jshint-stylish": "2.2.1",
     "karma": "0.13.22",
     "karma-ng-html2js-preprocessor": "0.1.2",
     "karma-ng-scenario": "0.1.0",
